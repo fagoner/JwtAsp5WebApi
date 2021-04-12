@@ -66,7 +66,7 @@ curl --location --request POST 'https://identitytoolkit.googleapis.com/v1/accoun
 ```
 
 # Response
-
+```
 {
   "kind": "identitytoolkit#VerifyPasswordResponse",
   "localId": "****",
@@ -88,7 +88,7 @@ curl --location -k  --request GET 'https://localhost:5001/protected/resource' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1N....'
 ```
 #RESPONSE
-
+```
 {
     "message": "Deluxe and protected Hello World"
 }
