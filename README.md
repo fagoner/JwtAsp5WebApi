@@ -86,7 +86,7 @@ Keep `idToken` that is similar to `eyJhbGciOiJSUzI1NiIsImtpZCI6I....`
 #REQUEST
 curl --location -k  --request GET 'https://localhost:5001/protected/resource' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1N....'
-
+```
 #RESPONSE
 
 {
@@ -105,7 +105,6 @@ dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 3.1.9
  - `./dockerBuild.sh`
  - `docker-compose up -d`
  - Check the routes mentioned above
-
 
  #### Source
 - [blog-bertrand-thomasasp-net-core-3-0-and-firebase](https://blog-bertrand-thomas.devpro.fr/2019/10/24/api-authentication-with-asp-net-core-3-0-and-firebase/)
